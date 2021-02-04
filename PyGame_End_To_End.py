@@ -52,3 +52,5 @@ while running:
     player(playerX,playerY)
     pygame.display.update()
 
+##this is just initialisation and the introduction more coming
+
