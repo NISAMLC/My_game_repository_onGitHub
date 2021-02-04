@@ -35,9 +35,9 @@ while running:
         if event.type==pygame.KEYDOWN:
             print("A keystroke is pressed")
             if event.key ==pygame.K_LEFT:
-                player_change = -0.3
+                player_change = -0.4
             if event.key ==pygame.K_RIGHT:
-                player_change = 0.3
+                player_change = 0.4
         if event.type==pygame.KEYUP:
             if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
                 player_change = 0
@@ -52,5 +52,5 @@ while running:
     player(playerX,playerY)
     pygame.display.update()
 
-##this is just initialisation and the introduction more coming
+
 
